@@ -1,6 +1,6 @@
 @echo off
 
-REM set /A variableName=value
+:: set /A variableName=value
 
 set sayOutLoud=Hello World!!
 echo %sayOutLoud%

@@ -11,7 +11,8 @@ if %a%==100 goto :labelTwo
 :labelOne 
 echo "The value of a is 50" 
 
-exit /b 0
+::exit /b 0
+exit /b
 
 :labelTwo
 echo "The value of a is 100"

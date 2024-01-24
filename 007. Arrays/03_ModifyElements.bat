@@ -6,3 +6,6 @@ set arr[2]=30
 Rem Adding an element at the beginning of an array 
 set arr[0]=40 
 echo The first element of the array is now %arr[0]%
+
+set totalSum = %arr[0]% + %arr[1]% + %arr[2]%
+echo %totalSum%
